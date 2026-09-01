@@ -1,0 +1,10 @@
+name: ddt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - nodejs=22
+  - pnpm>=9.0
+  - kubectl
+  - helm
+  - skaffold

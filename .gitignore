@@ -1,0 +1,17 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+dist/
+*.tgz
+.env
+.env.local
+.env.*.local
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+npm-debug.log*
+pnpm-debug.log*
+helm/ddt/charts/
