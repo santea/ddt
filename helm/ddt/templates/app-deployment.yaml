@@ -30,6 +30,12 @@ spec:
               value: {{ .Values.app.env.MCP_SERVER_URL | quote }}
             - name: AUTH_SECRET
               value: {{ .Values.app.env.AUTH_SECRET | quote }}
+            - name: S3_ENDPOINT
+              value: {{ .Values.app.env.S3_ENDPOINT | quote }}
+            - name: S3_ACCESS_KEY
+              value: {{ .Values.app.env.S3_ACCESS_KEY | quote }}
+            - name: S3_SECRET_KEY
+              value: {{ .Values.app.env.S3_SECRET_KEY | quote }}
             - name: SDLC_RUNNER_IMAGE
               value: "{{ .Values.sdlcRunner.image.repository }}:{{ .Values.sdlcRunner.image.tag }}"
           {{- if .Values.app.resources }}

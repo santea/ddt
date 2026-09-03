@@ -3,7 +3,7 @@ export default function Home() {
     <main className="mx-auto max-w-2xl px-6 py-12">
       <h1 className="text-3xl font-bold tracking-tight">🚀 DDT</h1>
       <p className="mt-2 text-muted-foreground">
-        프로젝트가 성공적으로 실행되었습니다.
+        프로젝트가 성공적으로 실행되었습니다.22
       </p>
       <div className="mt-8 rounded-lg border p-4">
         <h2 className="mb-3 text-lg font-semibold">서비스 현황</h2>

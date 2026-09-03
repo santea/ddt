@@ -5,6 +5,5 @@ channels:
 dependencies:
   - nodejs=22
   - pnpm>=9.0
-  - kubectl
-  - helm
-  - skaffold
+  - kubernetes-client
+  - kubernetes-helm

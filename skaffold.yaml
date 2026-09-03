@@ -63,3 +63,11 @@ portForward:
     resourceName: ddt-mcp
     port: 3001
     localPort: 3001
+  - resourceType: service
+    resourceName: ddt-minio
+    port: 9000
+    localPort: 9000
+  - resourceType: service
+    resourceName: ddt-minio
+    port: 9001
+    localPort: 9001

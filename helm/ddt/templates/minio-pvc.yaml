@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: {{ .Release.Name }}-postgres-pvc
+  name: {{ .Release.Name }}-minio-pvc
   annotations:
     "helm.sh/resource-policy": keep
 spec:
@@ -9,4 +9,4 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: {{ .Values.postgres.storage.size }}
+      storage: {{ .Values.minio.storage.size }}
